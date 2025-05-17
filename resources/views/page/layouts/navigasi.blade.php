@@ -8,6 +8,9 @@
               </div>
               <nav class="rs-menu">
                   <ul class="nav-menu">
+                      <li class="nav-item" style="margin-right: 20px">
+                          <a class="nav-link active" href="{{ route('home') }}">Beranda</a>
+                      </li>
                       <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item">
                           <a href="{{ asset('educavo') }}/index.html">Profil Yayasan</a>
                           <ul class="mega-menu">
@@ -15,7 +18,7 @@
                                   <div class="mega-menu-innner">
                                       <div class="single-megamenu">
                                           <ul class="sub-menu">
-                                              <li><a href="{{ asset('educavo') }}/index.html">Sejarah
+                                              <li><a href="{{ route('sejarah.pembentukan') }}">Sejarah
                                                       Pembentukan</a> </li>
                                               <li><a href="{{ asset('educavo') }}/index2.html">Visi
                                                       Misi</a> </li>
@@ -48,25 +51,6 @@
                               <li><a href="{{ asset('educavo') }}/about2.html">Monitoring
                                       Berkelanjutan</a>
                               </li>
-                          </ul>
-                      </li>
-
-                      <li class="menu-item-has-children">
-                          <a href="{{ asset('educavo') }}/#">Courses</a>
-                          <ul class="sub-menu">
-                              <li><a href="{{ asset('educavo') }}/course.html">Courses
-                                      One</a> </li>
-                              <li><a href="{{ asset('educavo') }}/course2.html">Courses
-                                      Two</a> </li>
-                              <li><a href="{{ asset('educavo') }}/course3.html">Courses
-                                      Three</a> </li>
-                              <li><a href="{{ asset('educavo') }}/course4.html">Courses
-                                      Four</a>
-                              </li>
-                              <li><a href="{{ asset('educavo') }}/course5.html">Courses
-                                      Five</a> </li>
-                              <li><a href="{{ asset('educavo') }}/course-single.html">Courses
-                                      Single</a> </li>
                           </ul>
                       </li>
 
